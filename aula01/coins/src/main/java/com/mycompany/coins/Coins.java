@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Coins {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         int c1, c5, c10, c25, c50, c100, cents;
         Scanner key = new Scanner(System.in);
         
@@ -45,4 +45,5 @@ public class Coins {
         System.out.println(c5+" moedas de 5 centavos");
         System.out.println(c1+" moedas de 1 centavo");
     }
+     
 }

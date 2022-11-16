@@ -4,7 +4,9 @@
  */
 
 package com.mycompany.sum;
+
 import javax.swing.JOptionPane;
+
 /**
  *
  * @author mariacecilia
@@ -15,7 +17,7 @@ public class Sum {
         String num1, num2;
         int n1, n2;
         num1 = JOptionPane.showInputDialog("Informe o primeiro valor:");
-        num2 = JOptionPane.showInputDialog("Informe o segundo valor valor:");
+        num2 = JOptionPane.showInputDialog("Informe o segundo valor:");
         
         n1 = Integer.parseInt(num1);
         n2 = Integer.parseInt(num2);
